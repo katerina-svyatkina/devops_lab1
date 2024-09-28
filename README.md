@@ -1,1 +1,1 @@
-# devops_lab1
+# frontend of project devOps lab1
