@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { useState } from 'react';
 import axios  from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,10 +29,6 @@ function App() {
 
   function edit(prop, event) {
     setValues({...values, ...{[prop]: event.target.value}})
-  }
-
-  function resetTextArea() {
-    setFileData("");
   }
 
   const handelSubmit = async (event) => {
